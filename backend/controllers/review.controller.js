@@ -13,7 +13,7 @@ export const getReviews = async (req, res) => {
 export const createReviews = async (req,res) => {
     const review = req.body; //user will send this data
 
-    if (!review.title || !review.drink || !review.rating || !review.location || !review.price || !review.review) {
+    if (!review.title || !review.image || !review.drink || !review.rating || !review.location || !review.price || !review.review) {
         return res.status(400).json({success:false, message: "Please provide all fields."});
     }
 

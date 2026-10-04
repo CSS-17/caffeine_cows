@@ -7,7 +7,7 @@ const reviewSchema = new mongoose.Schema({
     },
     image: {
         type: String,
-        required: false
+        required: true
     },
     drink: {
         type: String,
