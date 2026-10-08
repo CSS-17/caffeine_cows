@@ -93,23 +93,23 @@ const ReviewCard = ({ review }) => {
 				</Heading>
 
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${review.drink}
+					{review.drink}
 				</Text>
 
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${review.rating}
+					{review.rating}
 				</Text>
 
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${review.price}
+					{review.price}
 				</Text>
 
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${review.location}
+					{review.location}
 				</Text>
 
 				<Text fontWeight='bold' fontSize='xl' color={textColor} mb={4}>
-					${review.review}
+					{review.review}
 				</Text>
 
 				<HStack spacing={2}>
